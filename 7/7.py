@@ -302,7 +302,7 @@ for i in range(5):
                         if (soluzioni.count(uscite[4])) < 1:
                             soluzioni.append(uscite[4])
 soluzioni.sort(reverse = True)                            
-print("soluzione 1: ", soluzioni[0])
+print("solution 1: ", soluzioni[0])
 soluzioni = []
 for i in range(5):
     for j in range(5):
@@ -334,4 +334,4 @@ for i in range(5):
                         if (soluzioni.count(uscite[4])) < 1:
                             soluzioni.append(uscite[4])
 soluzioni.sort(reverse = True)
-print("soluzione 2: ", soluzioni[0])
+print("solution 2: ", soluzioni[0])
